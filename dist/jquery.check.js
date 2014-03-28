@@ -1,4 +1,4 @@
-/*! Check - v0.1.0 - 2014-03-28
+/*! Check - v0.1.1 - 2014-03-28
 * https://github.com/cahnory/jquery.check
 * Copyright (c) 2014 François Germain; Licensed MIT */
 (function ($) {

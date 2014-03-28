@@ -2,7 +2,7 @@
   "name": "check",
   "title": "Check",
   "description": "Check validity of form validation rules",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/cahnory/jquery.check",
   "author": {
     "name": "François Germain",
@@ -21,8 +21,8 @@
     }
   ],
   "dependencies": {
-    "jquery": "^1",
-    "easyPlug": "^0.2"
+    "jquery": ">=1",
+    "easyPlug": ">=0.2"
   },
   "devDependencies": {
     "qunit": "*"
