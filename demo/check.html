@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Validate Demo</title>
+  <link rel="stylesheet" href="check.demo.css" />
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>jquery.check</h1>
+    <form class="form" action="#">
+      <fieldset class="form__fieldset">
+        <div class="form__query">
+          <label class="form__label" for="field-3">Que veux-tu ?</label>
+          <div class="form__field"><input class="form__input" id="field-3" type="text" /></div>
+        </div>
+        <div class="form__query">
+          <label class="form__label" for="field-4">Que veux-tu ?</label>
+          <div class="form__field"><input class="form__input" id="field-4" type="text" /></div>
+        </div>
+      </fieldset>
+      <div class="form__query --inline">
+        <label class="form__label" for="field-5">Que veux-tu ?</label>
+        <div class="form__field"><input class="form__input" id="field-5" type="text" /></div>
+      </div>
+      <div class="form__query">
+        <label class="form__label" for="field-6">Ton mail ?</label>
+        <div class="form__field"><input class="form__input" id="field-6" type="email" required /></div>
+      </div>
+      <div class="form__query --inline">
+        <label class="form__label" for="field-7">Ton age ?</label>
+        <div class="form__field"><input class="form__input" id="field-7" type="number" min="18" max="99" /></div>
+      </div>
+      <div class="form__query --inline">
+        <label class="form__label" for="field-8">Une date ?</label>
+        <div class="form__field"><input class="form__input" id="field-8" type="date" /></div>
+      </div>
+      <div class="form__query --inline">
+        <label class="form__label" for="field-9">Une url ?</label>
+        <div class="form__field"><input class="form__input" id="field-9" type="url" /></div>
+      </div>
+      <div class="form__choice">
+        <span class="form__label">Êtes vous actuellement fabricantde rideaux métalliques ?</span>
+        <div class="form__field">
+          <div class="form__option">
+            <input name="manufacturer" class="form__radio" id="f_manufacturer-1" type="radio" value="true" />
+            <label for="f_manufacturer-1" class="form__name">Oui</label>
+          </div>
+          <div class="form__option">
+            <input name="manufacturer" class="form__radio" id="f_manufacturer-0" type="radio" value="false" />
+            <label for="f_manufacturer-0" class="form__name">Non</label>
+          </div>
+        </div>
+      </div>
+      <div class="form__query">
+        <label class="form__label" for="field-10">Que veux-tu ?</label>
+        <div class="form__field"><textarea class="form__input" id="field-10" rows="2" cols="50" data-check="maxlength:5"></textarea></div>
+      </div>
+      <div class="form__control">
+        <button class="button --primary" type="submit">Valider</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="../libs/jquery/dist/jquery.js"></script>
+  <script src="../libs/easyPlug/dist/jquery.easyPlug.js"></script>
+  <script src="../dist/jquery.check.js"></script>
+  <script src="../dist/jquery.check-i18n.js"></script>
+  <script src="../dist/jquery.check-type.js"></script>
+  <script src="check.demo.js"></script>
+</body>
+</html>

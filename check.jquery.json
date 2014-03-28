@@ -1,0 +1,31 @@
+{
+  "name": "check",
+  "title": "Check",
+  "description": "Check validity of form validation rules",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cahnory/jquery.check",
+  "author": {
+    "name": "François Germain",
+    "email": "cahnory@gmail.com",
+    "url": "http://www.cahnory.fr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cahnory/jquery.check.git"
+  },
+  "bugs": "https://github.com/cahnory/jquery.check/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/cahnory/jquery.check/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "^1",
+    "easyPlug": "^0.2"
+  },
+  "devDependencies": {
+    "qunit": "*"
+  },
+  "keywords": []
+}

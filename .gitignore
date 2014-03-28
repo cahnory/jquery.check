@@ -1,0 +1,8 @@
+*~
+*.lock
+*.DS_Store
+*.swp
+
+/node_modules
+/src_drafts
+/libs
